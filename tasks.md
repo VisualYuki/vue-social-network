@@ -3,9 +3,9 @@
 
 Добавить тесты для компонентов.
 Иконки не сразу подгружаются.
-Посомтреть миксины в vue.
 
-Добавить локализацию i18n (https://kazupon.github.io/vue-i18n/guide/formatting.html#named-formatting)
 Vue slots в vuetify {on, attrs}
 Более детально изучить пример соц. сети с github.
+
 добавить гамбургер для шапки на мобилке.
+Добавить локализацию i18n (https://kazupon.github.io/vue-i18n/guide/formatting.html#named-formatting)

@@ -28,13 +28,14 @@
 	import Vue from "vue";
 	import LoginInput from "../VuetifyComponents/LoginInput.vue";
 	import PasswordInput from "../VuetifyComponents/PasswordInput.vue";
+	import validateForm from "../../mixins/validateForm";
 
-	import {inputValidationRules, VuetifyValidateType} from "../Form/FormValidation";
 	import {logInStorage} from "../../utils/logInStorage";
 
 	// TODO как описать тип для data()
 	export default Vue.extend({
 		name: "AuthForm",
+		mixins: [validateForm],
 		components: {
 			LoginInput,
 			PasswordInput
@@ -50,17 +51,11 @@
 					isInvalidPassword: false,
 					isValidForm: undefined
 				},
-
-				inputValidationRules,
 				logInStorage
 			};
 		},
 
 		methods: {
-			validateForm(): void {
-				//this.$refs.form.validate();
-				(this.$refs.form as VuetifyValidateType).validate();
-			},
 			submitForm(): void {
 				const isThereEnteredLogin: boolean = this.logInStorage.isThereEnteredLogin(this.formData.loginValue);
 

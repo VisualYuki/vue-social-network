@@ -6,11 +6,32 @@ import vuetify from "./plugins/vuetify";
 
 Vue.config.productionTip = false;
 
+import VueI18n from "vue-i18n";
+// Ready translated locale messages
+const messages = {
+	en: {
+		message: {
+			hello: "hello world"
+		}
+	},
+	ja: {
+		message: {
+			hello: "こんにちは、世界"
+		}
+	}
+};
+
+const i18n = new VueI18n({
+	locale: "ja", // set locale
+	messages // set locale messages
+});
+
 new Vue({
 	router,
 	store,
 	vuetify,
-	render: (h) => h(App)
+	render: (h) => h(App),
+	i18n
 }).$mount("#app");
 
 // clear console after reloading browser
