@@ -12,13 +12,13 @@
 		></PasswordInput>
 
 		<v-btn :disabled="!validation.isValidForm" type="submit" class="mt-4" color="primary" @click="validateForm" block>
-			Log In
+			{{ $t("logInBtn") }}
 		</v-btn>
 
 		<div class="mt-4">
-			<p class="text-center">Not yet account? Then</p>
+			<p class="text-center">{{ $t("notYetAccount") }}</p>
 			<v-btn :to="{name: 'registration'}" class="mt-4" block>
-				Registration
+				{{ $t("registration") }}
 			</v-btn>
 		</div>
 	</v-form>

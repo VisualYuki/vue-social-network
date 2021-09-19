@@ -1,7 +1,7 @@
 <template>
 	<v-text-field
 		hint="Enter your login password"
-		label="Password"
+		:label="$t('password')"
 		filled
 		:type="isVisablePassword ? 'text' : 'password'"
 		:append-icon="isVisablePassword ? 'visibility' : 'visibility_off'"

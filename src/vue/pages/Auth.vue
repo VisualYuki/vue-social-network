@@ -1,5 +1,5 @@
 <template>
-	<FormTemplate formIconName="login" formTitle="Log in">
+	<FormTemplate formIconName="login" :formTitle="$t('logIn')">
 		<AuthForm></AuthForm>
 	</FormTemplate>
 </template>

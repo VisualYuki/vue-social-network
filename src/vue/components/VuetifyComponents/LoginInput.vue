@@ -1,7 +1,7 @@
 <template>
 	<v-text-field
 		hint="Enter your login"
-		label="Login"
+		:label="$t('login')"
 		filled
 		append-icon="face"
 		:rules="[inputValidationRules.required, inputValidationRules.minWidth]"
