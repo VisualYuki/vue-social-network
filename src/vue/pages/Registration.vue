@@ -6,8 +6,8 @@
 
 <script lang="ts">
 	import Vue from "vue";
-	import Registration from "@comp/Form/RegistrationForm.vue";
-	import FormTemplate from "@comp/Form/FormTemplate.vue";
+	import Registration from "@comp/form/RegistrationForm.vue";
+	import FormTemplate from "@comp/form/FormTemplate.vue";
 
 	export default Vue.extend({
 		components: {FormTemplate, Registration},

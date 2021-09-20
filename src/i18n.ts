@@ -13,7 +13,12 @@ const i18n = new VueI18n({
 			password: "Password",
 			notYetAccount: "Not yet account? Then",
 			registration: "Registration",
-			logInBtn: "log in"
+			logInBtn: "log in",
+			myProfile: "My profile",
+			messenger: "Messenger",
+			friends: "Friends",
+			music: "Music",
+			photos: "Photos"
 		},
 		ru: {
 			appName: "Социальная сеть",
@@ -22,7 +27,12 @@ const i18n = new VueI18n({
 			password: "Пароль",
 			notYetAccount: "Если нет аккаунта, тогда",
 			registration: "Регистрация",
-			logInBtn: "Войти"
+			logInBtn: "Войти",
+			myProfile: "Мой профиль",
+			messenger: "Сообщения",
+			friends: "Друзья",
+			music: "Музыка",
+			photos: "Фотографии"
 		}
 	}
 });

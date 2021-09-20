@@ -6,8 +6,8 @@
 
 <script lang="ts">
 	import Vue from "vue";
-	import AuthForm from "@comp/Form/AuthForm.vue";
-	import FormTemplate from "@comp/Form/FormTemplate.vue";
+	import AuthForm from "@comp/form/AuthForm.vue";
+	import FormTemplate from "@comp/form/FormTemplate.vue";
 
 	export default Vue.extend({
 		components: {FormTemplate, AuthForm},

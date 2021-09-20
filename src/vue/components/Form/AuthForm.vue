@@ -26,8 +26,8 @@
 
 <script lang="ts">
 	import Vue from "vue";
-	import LoginInput from "../VuetifyComponents/LoginInput.vue";
-	import PasswordInput from "../VuetifyComponents/PasswordInput.vue";
+	import LoginInput from "../vuetifyComponents/LoginInput.vue";
+	import PasswordInput from "../vuetifyComponents/PasswordInput.vue";
 	import validateForm from "../../mixins/validateForm";
 
 	import {logInStorage} from "../../utils/logInStorage";

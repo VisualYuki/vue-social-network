@@ -1,5 +1,5 @@
 import Vue from "vue";
-import {VuetifyValidateType} from "../components/Form/FormValidation";
+import {VuetifyValidateType} from "../components/form/FormValidation";
 
 export default Vue.extend({
 	methods: {

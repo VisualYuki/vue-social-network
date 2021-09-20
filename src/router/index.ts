@@ -5,6 +5,10 @@ import Auth from "../vue/pages/Auth.vue";
 import Registration from "../vue/pages/Registration.vue";
 //import Profile from "../vue/pages/Profile.vue";
 import Profile from "@/vue/pages/Profile.vue";
+import Messenger from "@/vue/pages/Messenger.vue";
+import Friends from "@/vue/pages/Friends.vue";
+import Music from "@/vue/pages/Music.vue";
+import Photos from "@/vue/pages/Photos.vue";
 
 import {logInStorage} from "../vue/utils/logInStorage";
 
@@ -52,6 +56,30 @@ const routes: Array<RouteConfig> = [
 		path: "/profile",
 		name: "profile",
 		component: Profile,
+		beforeEnter: isNotUserAuth
+	},
+	{
+		path: "/friends",
+		name: "friends",
+		component: Friends,
+		beforeEnter: isNotUserAuth
+	},
+	{
+		path: "/messenger",
+		name: "messenger",
+		component: Messenger,
+		beforeEnter: isNotUserAuth
+	},
+	{
+		path: "/photos",
+		name: "photos",
+		component: Photos,
+		beforeEnter: isNotUserAuth
+	},
+	{
+		path: "/music",
+		name: "music",
+		component: Music,
 		beforeEnter: isNotUserAuth
 	},
 	{

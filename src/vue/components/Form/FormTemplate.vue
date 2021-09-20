@@ -1,5 +1,5 @@
 <template>
-	<v-row justify="center" no-gutters>
+	<v-row class="mt-12" justify="center" no-gutters>
 		<v-col cols="12" sm="7" md="6" lg="4">
 			<v-card elevation="5">
 				<v-toolbar class="flex-column" height="auto" color="primary" flat dark>

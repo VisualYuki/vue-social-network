@@ -16,7 +16,7 @@
 
 <script>
 	import Vue from "vue";
-	import {inputValidationRules} from "../Form/FormValidation";
+	import {inputValidationRules} from "../form/FormValidation";
 
 	export default Vue.extend({
 		name: "LoginInput",

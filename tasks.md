@@ -1,14 +1,15 @@
 Погружать из vuetify только нужное для сайта. Проверить выходной бандл.
 Удалить логин и пароль по умолчанию в конце проекта.
+Создать backend на node.js для хранения информации.
+.env файлы на front-end - изучить.
+
+Добавить локализацию i18n (https://kazupon.github.io/vue-i18n/guide/formatting.html#named-formatting)
+Vue slots в vuetify {on, attrs}
 
 Добавить тесты для компонентов.
 Иконки не сразу подгружаются.
 Авторизация через вк.
-
-Vue slots в vuetify {on, attrs}
 Более детально изучить пример соц. сети с github.
-.env файлы на front-end - изучить.
-Добавить хлебные крошки для авторизованных пользователей.
 
-добавить гамбургер для шапки на мобилке.
-Добавить локализацию i18n (https://kazupon.github.io/vue-i18n/guide/formatting.html#named-formatting)
+Проверить сайт на github pages.
+Страница профиля.

@@ -14,3 +14,12 @@ new Vue({
 	render: (h) => h(App),
 	i18n
 }).$mount("#app");
+
+// clear console after hot update
+if (module.hot) {
+	module.hot.accept(); // already had this init code
+
+	module.hot.addStatusHandler((status) => {
+		if (status === "prepare") console.clear();
+	});
+}

@@ -3,13 +3,13 @@ const path = require("path");
 
 module.exports = {
 	configureWebpack: {
-		devServer: {
-			hot: false
-		},
+		//devServer: {
+		//	hot: false
+		//},
 		plugins: [
-			new BundleAnalyzerPlugin({
-				openAnalyzer: false
-			})
+			//new BundleAnalyzerPlugin({
+			//	openAnalyzer: false
+			//})
 		],
 		resolve: {
 			alias: {
@@ -21,6 +21,7 @@ module.exports = {
 			}
 		}
 	},
+	publicPath: process.env.NODE_ENV === "production" ? "/vue-social-network/dist/" : "/",
 	transpileDependencies: ["vuetify"],
 	pluginOptions: {
 		i18n: {
