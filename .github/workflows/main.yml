@@ -23,6 +23,7 @@ jobs:
     steps:
       - name: npm install, build and test
         run: |
+          npm install
           npm run build  
 
    
