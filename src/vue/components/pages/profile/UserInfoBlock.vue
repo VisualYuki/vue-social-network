@@ -37,14 +37,12 @@
 
 <script lang="ts">
 	import Vue from "vue";
-	import {inputValidationRules} from "../../form/FormValidation";
 
 	export default Vue.extend({
 		name: "UserInfo",
 		data() {
 			return {
-				isOpenStatusDropdown: false,
-				inputValidationRules
+				isOpenStatusDropdown: false
 			};
 		}
 	});
