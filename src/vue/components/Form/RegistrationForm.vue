@@ -11,7 +11,7 @@
 			errorMessage="Passwords are not equal"
 		></PasswordInput>
 		<PasswordInput
-			@getNewPassword="getNewPassword_2"
+			@getNewPassword="getNewPassword_2($event), comparePasswords()"
 			:isInvalidPassword="validation.isInvalidPassword"
 			errorMessage="Passwords are not equal"
 		></PasswordInput>
