@@ -2,6 +2,7 @@
 	"name": "vue-social-network",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "https://visualyuki.github.io/vue-social-network/dist/index.html",
 	"scripts": {
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",

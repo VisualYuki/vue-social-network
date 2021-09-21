@@ -35,7 +35,7 @@
 		data() {
 			return {
 				inputValidationRules,
-				passwordValue: "password",
+				passwordValue: "",
 				isVisablePassword: true
 			};
 		},

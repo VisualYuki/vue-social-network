@@ -43,8 +43,8 @@
 		data() {
 			return {
 				formData: {
-					passwordValue: "password",
-					loginValue: "login"
+					passwordValue: "",
+					loginValue: ""
 				},
 				validation: {
 					isInvalidLogin: false,
