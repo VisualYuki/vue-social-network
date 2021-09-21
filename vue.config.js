@@ -21,6 +21,7 @@ module.exports = {
 			}
 		}
 	},
+
 	publicPath: process.env.NODE_ENV === "production" ? "/vue-social-network/dist/" : "/",
 	transpileDependencies: ["vuetify"],
 	pluginOptions: {

@@ -2,7 +2,7 @@
 	<v-app>
 		<Header />
 		<v-main class="grey lighten-3" :class="{'mt-5': isUserAuth}">
-			<v-container>
+			<v-container class="container-mw">
 				<v-row no-gutters>
 					<Aside v-if="isUserAuth" />
 					<v-col>

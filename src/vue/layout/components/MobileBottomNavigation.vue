@@ -27,11 +27,4 @@
 	});
 </script>
 
-<style lang="scss">
-	//@import "~vuetify/src/styles/settings/_colors.scss";
-
-	//.v-bottom-navigation .v-btn--active,
-	//.v-bottom-navigation .v-btn--active .v-btn__content {
-	//	background: map-get($grey, "lighten-3") !important;
-	//}
-</style>
+<style lang="scss"></style>

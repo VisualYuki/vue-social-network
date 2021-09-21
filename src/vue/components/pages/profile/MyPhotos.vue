@@ -1,7 +1,6 @@
 <template>
 	<div class="white-block">
-		<v-img src="@/assets/no-user-photo.png" class="mb-4"></v-img>
-		<v-btn block>edit profile</v-btn>
+		<span>my-photos</span>
 	</div>
 </template>
 
@@ -9,7 +8,7 @@
 	import Vue from "vue";
 
 	export default Vue.extend({
-		name: "ImgBLock"
+		name: "MyPhotos"
 	});
 </script>
 

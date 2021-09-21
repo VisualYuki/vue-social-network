@@ -11,7 +11,7 @@
 
 <template>
 	<v-app-bar color="primary" app dark>
-		<v-container>
+		<v-container class="container-mw">
 			<v-row no-gutters justify="space-between">
 				<v-row col="auto" align-content="center" no-gutters>
 					<v-icon large>groups</v-icon>

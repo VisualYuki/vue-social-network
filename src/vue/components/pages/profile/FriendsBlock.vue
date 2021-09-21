@@ -1,5 +1,5 @@
 <template>
-	<div class="white-block">friends</div>
+	<div class="white-block d-none d-sm-block">friends</div>
 </template>
 
 <script lang="ts">
